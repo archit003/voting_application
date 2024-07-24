@@ -8,6 +8,8 @@ import Vote from './components/Vote';
 import AddCandidate from './components/AddCandidate';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import DeleteCandidate from './components/DeleteCandidate';
+import Result from './components/result';
 
 const App = () => {
   return (
@@ -22,6 +24,12 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/vote" element={<Vote />} />
           <Route path="/add-candidate" element={<AddCandidate />} />
+          <Route path="/delete-candidate" element={<DeleteCandidate />} />
+          <Route path="/result" element={<Result />} />
+        
+          
+    
+          
         </Routes>
       </Router>
     </>

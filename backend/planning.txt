@@ -32,7 +32,7 @@ Voting:
     /vote/:candidateId: POST - Vote for a specific candidate.
 
 Vote Counts:
-    /vote/counts: GET - Get the list of candidates sorted by their vote counts.
+    /votecount: GET - Get the list of candidates sorted by their vote counts.
 
 User Profile:
     /profile: GET - Get the user's profile information.
@@ -40,6 +40,6 @@ User Profile:
 
 Admin Candidate Management:
     /candidates: POST - Create a new candidate.
-    /candidates/:candidateId: PUT - Update an existing candidate.
+    
     /candidates/:candidateId: DELETE - Delete a candidate from the list.
 
